@@ -26,6 +26,14 @@
         <start-class>org.hango.cloud.dashboard.DashboardApplication</start-class>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>n52-releases</id>
+            <name>repository for 52North releases</name>
+            <url>https://52north.org/maven/repo/releases/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -130,11 +138,6 @@
     </profiles>
 
     <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-            </resource>
-        </resources>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
