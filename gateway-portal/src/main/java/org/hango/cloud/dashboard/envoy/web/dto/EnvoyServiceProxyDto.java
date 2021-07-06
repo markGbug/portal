@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.web.dto;
+package org.hango.cloud.dashboard.envoy.web.dto;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -6,7 +6,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyServiceProxyInfo;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyServiceProxyInfo;
 import org.hibernate.validator.constraints.NotBlank;
 
 import java.util.ArrayList;

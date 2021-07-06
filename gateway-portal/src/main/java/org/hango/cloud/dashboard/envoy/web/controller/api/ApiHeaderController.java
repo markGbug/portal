@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.web.controller.api;
+package org.hango.cloud.dashboard.envoy.web.controller.api;
 
 import org.hango.cloud.gdashboard.api.dto.ApiHeaderBasicDto;
 import org.hango.cloud.gdashboard.api.dto.ApiHeadersDto;
@@ -7,10 +7,10 @@ import org.hango.cloud.gdashboard.api.meta.ApiInfo;
 import org.hango.cloud.gdashboard.api.meta.errorcode.ApiErrorCode;
 import org.hango.cloud.gdashboard.api.service.IApiHeaderService;
 import org.hango.cloud.gdashboard.api.service.IApiInfoService;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.util.BeanUtil;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.web.controller.AbstractController;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.util.BeanUtil;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.web.controller.AbstractController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

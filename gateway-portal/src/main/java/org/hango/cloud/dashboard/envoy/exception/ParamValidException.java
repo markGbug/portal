@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.exception;
+package org.hango.cloud.dashboard.envoy.exception;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
 
 /**
  * @version $Id: ParamValidException.java, v 1.0 2018年07月26日 10:17

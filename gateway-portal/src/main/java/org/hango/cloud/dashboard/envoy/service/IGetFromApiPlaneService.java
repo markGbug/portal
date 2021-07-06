@@ -1,10 +1,10 @@
-package org.hango.cloud.ncegdashboard.envoy.service;
+package org.hango.cloud.dashboard.envoy.service;
 
-import org.hango.cloud.ncegdashboard.envoy.innerdto.EnvoyPublishServiceDto;
-import org.hango.cloud.ncegdashboard.envoy.innerdto.EnvoyServiceWithPortDto;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyHealthCheckRuleInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyRouteRuleProxyInfo;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyServiceProxyDto;
+import org.hango.cloud.dashboard.envoy.innerdto.EnvoyPublishServiceDto;
+import org.hango.cloud.dashboard.envoy.innerdto.EnvoyServiceWithPortDto;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyHealthCheckRuleInfo;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyRouteRuleProxyInfo;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyServiceProxyDto;
 
 import java.util.List;
 

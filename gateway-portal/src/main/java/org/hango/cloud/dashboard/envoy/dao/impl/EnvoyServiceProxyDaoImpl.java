@@ -1,9 +1,9 @@
-package org.hango.cloud.ncegdashboard.envoy.dao.impl;
+package org.hango.cloud.dashboard.envoy.dao.impl;
 
 import org.apache.commons.lang3.math.NumberUtils;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.dao.IEnvoyServiceProxyDao;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyServiceProxyInfo;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.dao.IEnvoyServiceProxyDao;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyServiceProxyInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.core.RowMapper;

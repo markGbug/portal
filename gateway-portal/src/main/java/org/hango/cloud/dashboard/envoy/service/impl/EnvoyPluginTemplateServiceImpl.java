@@ -1,14 +1,14 @@
-package org.hango.cloud.ncegdashboard.envoy.service.impl;
+package org.hango.cloud.dashboard.envoy.service.impl;
 
 import com.google.common.collect.Lists;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.dao.IEnvoyPluginTemplateDao;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyPluginBindingInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyPluginTemplateInfo;
-import org.hango.cloud.ncegdashboard.envoy.service.IEnvoyPluginInfoService;
-import org.hango.cloud.ncegdashboard.envoy.service.IEnvoyPluginTemplateService;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.dao.IEnvoyPluginTemplateDao;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyPluginBindingInfo;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyPluginTemplateInfo;
+import org.hango.cloud.dashboard.envoy.service.IEnvoyPluginInfoService;
+import org.hango.cloud.dashboard.envoy.service.IEnvoyPluginTemplateService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.util;
+package org.hango.cloud.dashboard.envoy.util;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
 
 public class ResultActionWithMessage {
 

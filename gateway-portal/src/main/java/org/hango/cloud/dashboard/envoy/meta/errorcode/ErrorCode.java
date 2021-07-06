@@ -1,7 +1,7 @@
-package org.hango.cloud.ncegdashboard.envoy.meta.errorcode;
+package org.hango.cloud.dashboard.envoy.meta.errorcode;
 
 import org.hango.cloud.gdashboard.api.meta.errorcode.AbstractErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.web.holder.RequestContextHolder;
+import org.hango.cloud.dashboard.envoy.web.holder.RequestContextHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

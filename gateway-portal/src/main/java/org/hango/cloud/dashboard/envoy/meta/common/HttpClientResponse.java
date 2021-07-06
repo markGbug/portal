@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.meta.common;
+package org.hango.cloud.dashboard.envoy.meta.common;
 
 import org.apache.commons.httpclient.Header;
 import org.apache.commons.lang3.builder.ToStringBuilder;

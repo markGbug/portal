@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.web.controller;
+package org.hango.cloud.dashboard.envoy.web.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.swagger.models.Info;
@@ -14,11 +14,11 @@ import org.hango.cloud.gdashboard.api.service.IApiBodyService;
 import org.hango.cloud.gdashboard.api.service.IApiConvertToJsonService;
 import org.hango.cloud.gdashboard.api.service.IApiInfoService;
 import org.hango.cloud.gdashboard.api.service.ISwaggerToMarkDown;
-import org.hango.cloud.ncegdashboard.envoy.meta.ServiceInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.service.IServiceInfoService;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.web.holder.RequestContextHolder;
+import org.hango.cloud.dashboard.envoy.meta.ServiceInfo;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.service.IServiceInfoService;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.web.holder.RequestContextHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

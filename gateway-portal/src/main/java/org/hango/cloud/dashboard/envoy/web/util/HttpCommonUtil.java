@@ -1,9 +1,9 @@
-package org.hango.cloud.ncegdashboard.envoy.web.util;
+package org.hango.cloud.dashboard.envoy.web.util;
 
 import org.apache.commons.httpclient.HttpStatus;
-import org.hango.cloud.ncegdashboard.envoy.meta.common.HttpClientResponse;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.util.HttpClientUtil;
+import org.hango.cloud.dashboard.envoy.meta.common.HttpClientResponse;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.util.HttpClientUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

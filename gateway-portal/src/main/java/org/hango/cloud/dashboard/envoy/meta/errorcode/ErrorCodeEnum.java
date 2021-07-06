@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.meta.errorcode;
+package org.hango.cloud.dashboard.envoy.meta.errorcode;
 
 /**
  * 新版 OpenAPI 后使用的 ApiErrorCode 枚举

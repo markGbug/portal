@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.exception;
+package org.hango.cloud.dashboard.envoy.exception;
 
 import javax.servlet.http.HttpServletResponse;
 

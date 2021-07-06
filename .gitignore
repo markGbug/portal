@@ -20,3 +20,4 @@ gateway-portal-backend/.classpath
 gateway-portal-backend/.project
 gateway-portal-backend/.settings/
 gateway-portal-backend/logs/**
+/logs/

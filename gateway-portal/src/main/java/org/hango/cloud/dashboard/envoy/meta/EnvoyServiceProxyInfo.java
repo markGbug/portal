@@ -1,10 +1,10 @@
-package org.hango.cloud.ncegdashboard.envoy.meta;
+package org.hango.cloud.dashboard.envoy.meta;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import org.hango.cloud.ncegdashboard.envoy.util.BeanUtil;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyServiceProxyDto;
+import org.hango.cloud.dashboard.envoy.util.BeanUtil;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyServiceProxyDto;
 
 public class EnvoyServiceProxyInfo {
 

@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard;
+package org.hango.cloud.dashboard;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;

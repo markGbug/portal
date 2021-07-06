@@ -1,11 +1,11 @@
-package org.hango.cloud.ncegdashboard.apiserver.service.impl;
+package org.hango.cloud.dashboard.apiserver.service.impl;
 
 import static org.junit.Assert.assertTrue;
 
-import org.hango.cloud.ncegdashboard.BaseServiceImplTest;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.GatewayDto;
-import org.hango.cloud.ncegdashboard.envoy.meta.GatewayInfo;
-import org.hango.cloud.ncegdashboard.envoy.service.IGatewayInfoService;
+import org.hango.cloud.dashboard.BaseServiceImplTest;
+import org.hango.cloud.dashboard.envoy.web.dto.GatewayDto;
+import org.hango.cloud.dashboard.envoy.meta.GatewayInfo;
+import org.hango.cloud.dashboard.envoy.service.IGatewayInfoService;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

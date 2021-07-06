@@ -1,15 +1,15 @@
-package org.hango.cloud.ncegdashboard.envoy.web.controller;
+package org.hango.cloud.dashboard.envoy.web.controller;
 
 import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.lang3.StringUtils;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.web.holder.ProjectTraceHolder;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyRouteRuleInfo;
-import org.hango.cloud.ncegdashboard.envoy.service.IEnvoyRouteRuleInfoService;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyCopyRuleDto;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyRouteRuleDto;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.web.holder.ProjectTraceHolder;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyRouteRuleInfo;
+import org.hango.cloud.dashboard.envoy.service.IEnvoyRouteRuleInfoService;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyCopyRuleDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyRouteRuleDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

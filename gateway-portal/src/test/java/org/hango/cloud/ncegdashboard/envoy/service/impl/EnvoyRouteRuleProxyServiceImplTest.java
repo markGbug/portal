@@ -1,16 +1,16 @@
-package org.hango.cloud.ncegdashboard.envoy.service.impl;
+package org.hango.cloud.dashboard.envoy.service.impl;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import com.google.common.collect.Lists;
-import org.hango.cloud.ncegdashboard.BaseServiceImplTest;
-import org.hango.cloud.ncegdashboard.envoy.meta.*;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.service.*;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.*;
+import org.hango.cloud.dashboard.BaseServiceImplTest;
+import org.hango.cloud.dashboard.envoy.meta.*;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.service.*;
+import org.hango.cloud.dashboard.envoy.web.dto.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

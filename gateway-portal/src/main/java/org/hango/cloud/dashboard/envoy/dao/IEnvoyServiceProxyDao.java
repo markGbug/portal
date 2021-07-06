@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.dao;
+package org.hango.cloud.dashboard.envoy.dao;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyServiceProxyInfo;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyServiceProxyInfo;
 
 import java.util.List;
 

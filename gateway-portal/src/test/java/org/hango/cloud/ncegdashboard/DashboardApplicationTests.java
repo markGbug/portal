@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard;
+package org.hango.cloud.dashboard;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,7 +1,7 @@
-package org.hango.cloud.ncegdashboard.envoy.web.dto;
+package org.hango.cloud.dashboard.envoy.web.dto;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import org.hango.cloud.ncegdashboard.envoy.meta.RegistryCenterInfo;
+import org.hango.cloud.dashboard.envoy.meta.RegistryCenterInfo;
 import org.hibernate.validator.constraints.NotEmpty;
 
 /**

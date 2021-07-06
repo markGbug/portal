@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.meta.errorcode;
+package org.hango.cloud.dashboard.envoy.meta.errorcode;
 
 /**
  * 该 ApiErrorCode 类仅用于网关服务使用！！！

@@ -1,20 +1,20 @@
-package org.hango.cloud.ncegdashboard.envoy.service.impl;
+package org.hango.cloud.dashboard.envoy.service.impl;
 
 import static org.junit.Assert.assertTrue;
 
-import org.hango.cloud.ncegdashboard.BaseServiceImplTest;
-import org.hango.cloud.ncegdashboard.envoy.meta.GatewayInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.ServiceInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.service.IGatewayInfoService;
-import org.hango.cloud.ncegdashboard.envoy.service.IServiceInfoService;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.innerdto.EnvoyActiveHealthCheckRuleDto;
-import org.hango.cloud.ncegdashboard.envoy.innerdto.EnvoyPassiveHealthCheckRuleDto;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyHealthCheckRuleDto;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyServiceProxyDto;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoySubsetDto;
+import org.hango.cloud.dashboard.BaseServiceImplTest;
+import org.hango.cloud.dashboard.envoy.meta.GatewayInfo;
+import org.hango.cloud.dashboard.envoy.meta.ServiceInfo;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.service.IGatewayInfoService;
+import org.hango.cloud.dashboard.envoy.service.IServiceInfoService;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.innerdto.EnvoyActiveHealthCheckRuleDto;
+import org.hango.cloud.dashboard.envoy.innerdto.EnvoyPassiveHealthCheckRuleDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyHealthCheckRuleDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyServiceProxyDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoySubsetDto;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

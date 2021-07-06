@@ -1,11 +1,11 @@
-package org.hango.cloud.ncegdashboard.envoy.innerdto;
+package org.hango.cloud.dashboard.envoy.innerdto;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyRouteRuleMapMatchDto;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyRouteRuleMapMatchDto;
 import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;

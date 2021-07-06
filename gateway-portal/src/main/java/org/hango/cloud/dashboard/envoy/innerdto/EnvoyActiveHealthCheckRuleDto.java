@@ -1,11 +1,11 @@
-package org.hango.cloud.ncegdashboard.envoy.innerdto;
+package org.hango.cloud.dashboard.envoy.innerdto;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.annotation.JSONField;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyHealthCheckRuleInfo;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyHealthCheckRuleDto;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyHealthCheckRuleInfo;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyHealthCheckRuleDto;
 
 import java.io.Serializable;
 import java.util.List;

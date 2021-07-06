@@ -1,11 +1,11 @@
-package org.hango.cloud.ncegdashboard.envoy.util;
+package org.hango.cloud.dashboard.envoy.util;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.io.Charsets;
 import org.apache.commons.lang3.StringUtils;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.web.holder.ProjectTraceHolder;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.web.holder.ProjectTraceHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView;

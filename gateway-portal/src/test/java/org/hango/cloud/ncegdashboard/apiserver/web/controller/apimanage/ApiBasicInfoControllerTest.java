@@ -1,14 +1,14 @@
-package org.hango.cloud.ncegdashboard.apiserver.web.controller.apimanage;
+package org.hango.cloud.dashboard.apiserver.web.controller.apimanage;
 
 import org.hango.cloud.gdashboard.api.dto.ApiInfoBasicDto;
 import org.hango.cloud.gdashboard.api.meta.ApiInfo;
-import org.hango.cloud.ncegdashboard.BaseServiceImplTest;
-import org.hango.cloud.ncegdashboard.envoy.meta.ServiceInfo;
-import org.hango.cloud.ncegdashboard.envoy.service.IServiceInfoService;
-import org.hango.cloud.ncegdashboard.envoy.util.BeanUtil;
-import org.hango.cloud.ncegdashboard.envoy.web.filter.LogUUIDFilter;
-import org.hango.cloud.ncegdashboard.envoy.web.filter.ProjectTraceFilter;
-import org.hango.cloud.ncegdashboard.envoy.web.filter.RequestContextHolderFilter;
+import org.hango.cloud.dashboard.BaseServiceImplTest;
+import org.hango.cloud.dashboard.envoy.meta.ServiceInfo;
+import org.hango.cloud.dashboard.envoy.service.IServiceInfoService;
+import org.hango.cloud.dashboard.envoy.util.BeanUtil;
+import org.hango.cloud.dashboard.envoy.web.filter.LogUUIDFilter;
+import org.hango.cloud.dashboard.envoy.web.filter.ProjectTraceFilter;
+import org.hango.cloud.dashboard.envoy.web.filter.RequestContextHolderFilter;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

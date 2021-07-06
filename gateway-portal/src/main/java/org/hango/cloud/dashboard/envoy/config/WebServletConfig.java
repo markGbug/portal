@@ -1,8 +1,8 @@
-package org.hango.cloud.ncegdashboard.envoy.config;
+package org.hango.cloud.dashboard.envoy.config;
 
-import org.hango.cloud.ncegdashboard.envoy.web.filter.LogUUIDFilter;
-import org.hango.cloud.ncegdashboard.envoy.web.filter.ProjectTraceFilter;
-import org.hango.cloud.ncegdashboard.envoy.web.filter.RequestContextHolderFilter;
+import org.hango.cloud.dashboard.envoy.web.filter.LogUUIDFilter;
+import org.hango.cloud.dashboard.envoy.web.filter.ProjectTraceFilter;
+import org.hango.cloud.dashboard.envoy.web.filter.RequestContextHolderFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

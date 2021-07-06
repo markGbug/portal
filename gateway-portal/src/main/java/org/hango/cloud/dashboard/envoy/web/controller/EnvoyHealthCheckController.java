@@ -1,15 +1,15 @@
-package org.hango.cloud.ncegdashboard.envoy.web.controller;
+package org.hango.cloud.dashboard.envoy.web.controller;
 
 import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.lang3.StringUtils;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.service.IGatewayInfoService;
-import org.hango.cloud.ncegdashboard.envoy.service.IServiceInfoService;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.service.IEnvoyHealthCheckService;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyHealthCheckRuleDto;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyServiceInstanceDto;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.service.IGatewayInfoService;
+import org.hango.cloud.dashboard.envoy.service.IServiceInfoService;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.service.IEnvoyHealthCheckService;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyHealthCheckRuleDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyServiceInstanceDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

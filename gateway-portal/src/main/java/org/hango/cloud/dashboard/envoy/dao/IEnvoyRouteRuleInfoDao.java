@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.dao;
+package org.hango.cloud.dashboard.envoy.dao;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyRouteRuleInfo;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyRouteRuleInfo;
 
 import java.util.List;
 

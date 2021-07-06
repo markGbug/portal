@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.util;
+package org.hango.cloud.dashboard.envoy.util;
 
 public class HttpMisc {
 

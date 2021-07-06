@@ -1,15 +1,15 @@
-package org.hango.cloud.ncegdashboard.envoy.service;
+package org.hango.cloud.dashboard.envoy.service;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.GatewayInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.ServiceInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.innerdto.EnvoyActiveHealthCheckRuleDto;
-import org.hango.cloud.ncegdashboard.envoy.innerdto.EnvoyPassiveHealthCheckRuleDto;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyHealthCheckRuleInfo;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyHealthCheckRuleDto;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyServiceInstanceDto;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyServiceTrafficPolicyDto;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoySubsetDto;
+import org.hango.cloud.dashboard.envoy.meta.GatewayInfo;
+import org.hango.cloud.dashboard.envoy.meta.ServiceInfo;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.innerdto.EnvoyActiveHealthCheckRuleDto;
+import org.hango.cloud.dashboard.envoy.innerdto.EnvoyPassiveHealthCheckRuleDto;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyHealthCheckRuleInfo;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyHealthCheckRuleDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyServiceInstanceDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyServiceTrafficPolicyDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoySubsetDto;
 
 import java.util.List;
 

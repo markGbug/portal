@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.meta.common;
+package org.hango.cloud.dashboard.envoy.meta.common;
 
 import java.io.Serializable;
 

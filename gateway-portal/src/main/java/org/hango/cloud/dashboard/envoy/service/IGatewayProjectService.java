@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.service;
+package org.hango.cloud.dashboard.envoy.service;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.PermissionScopeDto;
+import org.hango.cloud.dashboard.envoy.meta.PermissionScopeDto;
 
 public interface IGatewayProjectService {
 

@@ -1,8 +1,8 @@
-package org.hango.cloud.ncegdashboard.envoy.innerdto;
+package org.hango.cloud.dashboard.envoy.innerdto;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyServiceTrafficPolicyDto;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoySubsetDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyServiceTrafficPolicyDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoySubsetDto;
 
 import java.util.List;
 

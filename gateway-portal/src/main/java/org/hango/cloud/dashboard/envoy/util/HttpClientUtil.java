@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.util;
+package org.hango.cloud.dashboard.envoy.util;
 
 import org.apache.commons.httpclient.Header;
 import org.apache.commons.httpclient.HttpClient;
@@ -19,10 +19,10 @@ import org.apache.commons.httpclient.protocol.Protocol;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.StopWatch;
-import org.hango.cloud.ncegdashboard.envoy.exception.AbnormalStatusCodeException;
-import org.hango.cloud.ncegdashboard.envoy.exception.HostUnReachableException;
-import org.hango.cloud.ncegdashboard.envoy.exception.NetworkUnReachableException;
-import org.hango.cloud.ncegdashboard.envoy.meta.common.HttpClientResponse;
+import org.hango.cloud.dashboard.envoy.exception.AbnormalStatusCodeException;
+import org.hango.cloud.dashboard.envoy.exception.HostUnReachableException;
+import org.hango.cloud.dashboard.envoy.exception.NetworkUnReachableException;
+import org.hango.cloud.dashboard.envoy.meta.common.HttpClientResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

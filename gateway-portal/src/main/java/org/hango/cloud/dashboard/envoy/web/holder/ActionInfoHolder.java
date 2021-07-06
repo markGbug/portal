@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.web.holder;
+package org.hango.cloud.dashboard.envoy.web.holder;
 
 /**
  * 用户权限相关holder

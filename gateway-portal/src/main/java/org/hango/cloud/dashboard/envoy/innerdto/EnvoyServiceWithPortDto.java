@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.innerdto;
+package org.hango.cloud.dashboard.envoy.innerdto;
 
 import com.alibaba.fastjson.annotation.JSONField;
 

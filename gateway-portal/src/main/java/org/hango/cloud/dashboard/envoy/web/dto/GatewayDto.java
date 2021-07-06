@@ -1,12 +1,12 @@
-package org.hango.cloud.ncegdashboard.envoy.web.dto;
+package org.hango.cloud.dashboard.envoy.web.dto;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import org.hango.cloud.ncegdashboard.envoy.meta.GatewayInfo;
-import org.hango.cloud.ncegdashboard.envoy.util.BeanUtil;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.web.holder.ProjectTraceHolder;
+import org.hango.cloud.dashboard.envoy.meta.GatewayInfo;
+import org.hango.cloud.dashboard.envoy.util.BeanUtil;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.web.holder.ProjectTraceHolder;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import java.io.Serializable;

@@ -1,14 +1,14 @@
-package org.hango.cloud.ncegdashboard.apiserver.service.impl;
+package org.hango.cloud.dashboard.apiserver.service.impl;
 
 import static org.junit.Assert.assertTrue;
 
-import org.hango.cloud.ncegdashboard.BaseServiceImplTest;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.ServiceInfoDto;
-import org.hango.cloud.ncegdashboard.envoy.meta.ServiceInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.service.IServiceInfoService;
-import org.hango.cloud.ncegdashboard.envoy.util.BeanUtil;
+import org.hango.cloud.dashboard.BaseServiceImplTest;
+import org.hango.cloud.dashboard.envoy.web.dto.ServiceInfoDto;
+import org.hango.cloud.dashboard.envoy.meta.ServiceInfo;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.service.IServiceInfoService;
+import org.hango.cloud.dashboard.envoy.util.BeanUtil;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

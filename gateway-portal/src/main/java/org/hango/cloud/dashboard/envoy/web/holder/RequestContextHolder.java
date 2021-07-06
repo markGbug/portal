@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.web.holder;
+package org.hango.cloud.dashboard.envoy.web.holder;
 
-import org.hango.cloud.ncegdashboard.envoy.web.filter.RequestContextHolderFilter;
+import org.hango.cloud.dashboard.envoy.web.filter.RequestContextHolderFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

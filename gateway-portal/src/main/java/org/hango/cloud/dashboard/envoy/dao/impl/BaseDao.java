@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.dao.impl;
+package org.hango.cloud.dashboard.envoy.dao.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

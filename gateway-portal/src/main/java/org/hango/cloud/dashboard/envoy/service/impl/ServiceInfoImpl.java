@@ -1,17 +1,17 @@
-package org.hango.cloud.ncegdashboard.envoy.service.impl;
+package org.hango.cloud.dashboard.envoy.service.impl;
 
 import com.google.common.collect.Lists;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.hango.cloud.gdashboard.api.service.IApiModelService;
-import org.hango.cloud.ncegdashboard.envoy.dao.ServiceInfoDao;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.ServiceInfoDto;
-import org.hango.cloud.ncegdashboard.envoy.meta.ServiceInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.service.IServiceInfoService;
-import org.hango.cloud.ncegdashboard.envoy.web.holder.ProjectTraceHolder;
-import org.hango.cloud.ncegdashboard.envoy.service.IEnvoyHealthCheckService;
+import org.hango.cloud.dashboard.envoy.dao.ServiceInfoDao;
+import org.hango.cloud.dashboard.envoy.web.dto.ServiceInfoDto;
+import org.hango.cloud.dashboard.envoy.meta.ServiceInfo;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.service.IServiceInfoService;
+import org.hango.cloud.dashboard.envoy.web.holder.ProjectTraceHolder;
+import org.hango.cloud.dashboard.envoy.service.IEnvoyHealthCheckService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.meta;
+package org.hango.cloud.dashboard.meta;
 
 import com.alibaba.fastjson.JSON;
 

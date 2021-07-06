@@ -1,16 +1,16 @@
-package org.hango.cloud.ncegdashboard.envoy.service.impl;
+package org.hango.cloud.dashboard.envoy.service.impl;
 
 import com.google.common.collect.Lists;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
-import org.hango.cloud.ncegdashboard.envoy.dao.GatewayInfoDao;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyVirtualHostInfo;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.GatewayDto;
-import org.hango.cloud.ncegdashboard.envoy.meta.GatewayInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.service.IGatewayInfoService;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.dao.GatewayInfoDao;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyVirtualHostInfo;
+import org.hango.cloud.dashboard.envoy.web.dto.GatewayDto;
+import org.hango.cloud.dashboard.envoy.meta.GatewayInfo;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.service.IGatewayInfoService;
+import org.hango.cloud.dashboard.envoy.util.Const;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

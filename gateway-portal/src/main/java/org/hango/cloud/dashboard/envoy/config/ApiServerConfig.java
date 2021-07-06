@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.config;
+package org.hango.cloud.dashboard.envoy.config;
 
 import com.google.common.collect.Maps;
 import org.apache.commons.lang3.StringUtils;

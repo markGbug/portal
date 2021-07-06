@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.handler;
+package org.hango.cloud.dashboard.envoy.handler;
 
-import org.hango.cloud.ncegdashboard.envoy.web.dto.PluginOrderItemDto;
+import org.hango.cloud.dashboard.envoy.web.dto.PluginOrderItemDto;
 
 import java.util.ArrayList;
 import java.util.HashMap;

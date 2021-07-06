@@ -8,7 +8,7 @@
 
         <RollingFile name="RollingFile"
                      fileName="./logs/gateway/dashboard.log"
-                     filePattern="./logs/gateway/$${date:yyyy-MM}/gateway-dashboard-%d{-dd-MMMM-yyyy}-%i.log.gz">
+                     filePattern="./logs/gateway/$${date:yyyy-MM}/gateway-dashboard%d{-dd-MMMM-yyyy}-%i.log.gz">
             <PatternLayout>
                 <pattern>%d %p %C{1.} [%t] %m%n</pattern>
             </PatternLayout>
@@ -20,7 +20,7 @@
                         size="10 MB"/>
                 <TimeBasedTriggeringPolicy/>
             </Policies>
-            <DefaultRolloverStrategy max="20"/>
+            <DefaultRolloverStrategy max="10"/>
         </RollingFile>
     </Appenders>
 

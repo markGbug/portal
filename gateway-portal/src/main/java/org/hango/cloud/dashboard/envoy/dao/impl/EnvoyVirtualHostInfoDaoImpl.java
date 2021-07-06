@@ -1,10 +1,10 @@
-package org.hango.cloud.ncegdashboard.envoy.dao.impl;
+package org.hango.cloud.dashboard.envoy.dao.impl;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.lang3.StringUtils;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.dao.IEnvoyVirtualHostInfoDao;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyVirtualHostInfo;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.dao.IEnvoyVirtualHostInfoDao;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyVirtualHostInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.core.RowMapper;

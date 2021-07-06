@@ -1,13 +1,13 @@
-package org.hango.cloud.ncegdashboard.envoy.exception;
+package org.hango.cloud.dashboard.envoy.exception;
 
 import com.alibaba.fastjson.JSONException;
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 import org.apache.commons.lang3.StringUtils;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.web.controller.AbstractController;
-import org.hango.cloud.ncegdashboard.envoy.web.holder.RequestContextHolder;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.web.controller.AbstractController;
+import org.hango.cloud.dashboard.envoy.web.holder.RequestContextHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.meta;
+package org.hango.cloud.dashboard.meta;
 
-import org.hango.cloud.ncegdashboard.BaseServiceImplTest;
+import org.hango.cloud.dashboard.BaseServiceImplTest;
 import org.junit.Test;
 import org.reflections.Configuration;
 import org.reflections.Reflections;
@@ -20,7 +20,7 @@ public class DaoMetaUnitTest extends BaseServiceImplTest {
 	public void testForAllDaoMeta() {
 		logger.info("DaoMetaUnitTest ==== start ====");
 		Configuration configuration = new ConfigurationBuilder().setUrls(
-			ClasspathHelper.forPackage("org.hango.cloud.ncegdashboard.apiserver")).setScanners(
+			ClasspathHelper.forPackage("org.hango.cloud.dashboard.apiserver")).setScanners(
 			new SubTypesScanner(false));
 		Reflections reflections = new Reflections(configuration);
 		Set<Class<?>> allClass = reflections.getSubTypesOf(Object.class);

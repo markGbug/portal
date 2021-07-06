@@ -1,8 +1,8 @@
-package org.hango.cloud.ncegdashboard.envoy.service;
+package org.hango.cloud.dashboard.envoy.service;
 
-import org.hango.cloud.ncegdashboard.envoy.web.dto.GatewayDto;
-import org.hango.cloud.ncegdashboard.envoy.meta.GatewayInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.web.dto.GatewayDto;
+import org.hango.cloud.dashboard.envoy.meta.GatewayInfo;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package org.hango.cloud.ncegdashboard.envoy.service.impl;
+package org.hango.cloud.dashboard.envoy.service.impl;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.PermissionScopeDto;
-import org.hango.cloud.ncegdashboard.envoy.service.IGatewayProjectService;
+import org.hango.cloud.dashboard.envoy.meta.PermissionScopeDto;
+import org.hango.cloud.dashboard.envoy.service.IGatewayProjectService;
 import org.springframework.stereotype.Service;
 
 @Service

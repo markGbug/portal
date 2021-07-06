@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.web.filter;
+package org.hango.cloud.dashboard.envoy.web.filter;
 
-import org.hango.cloud.ncegdashboard.envoy.util.LogTraceUUIDHolder;
+import org.hango.cloud.dashboard.envoy.util.LogTraceUUIDHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;

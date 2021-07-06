@@ -1,9 +1,9 @@
-package org.hango.cloud.ncegdashboard.envoy.handler;
+package org.hango.cloud.dashboard.envoy.handler;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.PluginOrderItemDto;
+import org.hango.cloud.dashboard.envoy.web.dto.PluginOrderItemDto;
 import org.springframework.util.CollectionUtils;
 
 /**

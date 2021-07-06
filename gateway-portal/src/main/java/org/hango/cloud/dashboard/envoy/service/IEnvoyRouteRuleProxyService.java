@@ -1,9 +1,9 @@
-package org.hango.cloud.ncegdashboard.envoy.service;
+package org.hango.cloud.dashboard.envoy.service;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCodeEnum;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyRouteRuleProxyInfo;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyRouteRuleProxyDto;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCodeEnum;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyRouteRuleProxyInfo;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyRouteRuleProxyDto;
 
 import java.util.List;
 

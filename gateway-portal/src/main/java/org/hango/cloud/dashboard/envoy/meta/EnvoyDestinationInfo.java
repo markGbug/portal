@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.meta;
+package org.hango.cloud.dashboard.envoy.meta;
 
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyDestinationDto;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyDestinationDto;
 
 /**
  * 路由规则发布目的服务Info

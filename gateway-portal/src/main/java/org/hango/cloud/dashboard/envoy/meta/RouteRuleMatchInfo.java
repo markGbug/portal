@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.meta;
+package org.hango.cloud.dashboard.envoy.meta;
 
 import java.util.List;
 import java.util.Objects;

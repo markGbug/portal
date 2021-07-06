@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.dao;
+package org.hango.cloud.dashboard.envoy.dao;
 
 import java.util.List;
 import java.util.Map;

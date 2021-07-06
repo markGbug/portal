@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.meta;
+package org.hango.cloud.dashboard.envoy.meta;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;

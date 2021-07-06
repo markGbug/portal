@@ -1,10 +1,10 @@
-package org.hango.cloud.ncegdashboard.envoy.service;
+package org.hango.cloud.dashboard.envoy.service;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.ErrorCodeEnum;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyPluginBindingInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyPluginInfo;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyPluginBindingDto;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCode;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.ErrorCodeEnum;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyPluginBindingInfo;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyPluginInfo;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyPluginBindingDto;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package org.hango.cloud.ncegdashboard.envoy.web.dto;
+package org.hango.cloud.dashboard.envoy.web.dto;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyPluginInfo;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyPluginInfo;
 
 import javax.validation.constraints.Pattern;
 

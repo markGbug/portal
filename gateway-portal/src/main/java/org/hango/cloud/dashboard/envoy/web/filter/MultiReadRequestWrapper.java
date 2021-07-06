@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.web.filter;
+package org.hango.cloud.dashboard.envoy.web.filter;
 
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.util.Const;
 import org.springframework.util.StreamUtils;
 
 import java.io.BufferedReader;

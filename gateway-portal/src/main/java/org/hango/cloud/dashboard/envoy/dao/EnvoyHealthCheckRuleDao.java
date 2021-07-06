@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.dao;
+package org.hango.cloud.dashboard.envoy.dao;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyHealthCheckRuleInfo;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyHealthCheckRuleInfo;
 
 /**
  * 健康检查DAO

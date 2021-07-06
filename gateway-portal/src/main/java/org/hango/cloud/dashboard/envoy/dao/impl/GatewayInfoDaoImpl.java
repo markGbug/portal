@@ -1,11 +1,11 @@
-package org.hango.cloud.ncegdashboard.envoy.dao.impl;
+package org.hango.cloud.dashboard.envoy.dao.impl;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import org.hango.cloud.ncegdashboard.envoy.dao.GatewayInfoDao;
-import org.hango.cloud.ncegdashboard.envoy.meta.GatewayInfo;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.dao.GatewayInfoDao;
+import org.hango.cloud.dashboard.envoy.meta.GatewayInfo;
+import org.hango.cloud.dashboard.envoy.util.Const;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.core.RowMapper;

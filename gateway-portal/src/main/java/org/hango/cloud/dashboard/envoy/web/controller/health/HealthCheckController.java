@@ -1,7 +1,7 @@
-package org.hango.cloud.ncegdashboard.envoy.web.controller.health;
+package org.hango.cloud.dashboard.envoy.web.controller.health;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.errorcode.CommonErrorCode;
-import org.hango.cloud.ncegdashboard.envoy.web.controller.AbstractController;
+import org.hango.cloud.dashboard.envoy.meta.errorcode.CommonErrorCode;
+import org.hango.cloud.dashboard.envoy.web.controller.AbstractController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;

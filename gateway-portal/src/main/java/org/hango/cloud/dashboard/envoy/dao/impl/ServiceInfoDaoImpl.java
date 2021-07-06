@@ -1,9 +1,9 @@
-package org.hango.cloud.ncegdashboard.envoy.dao.impl;
+package org.hango.cloud.dashboard.envoy.dao.impl;
 
 import org.apache.commons.lang3.StringUtils;
-import org.hango.cloud.ncegdashboard.envoy.dao.ServiceInfoDao;
-import org.hango.cloud.ncegdashboard.envoy.meta.ServiceInfo;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.dao.ServiceInfoDao;
+import org.hango.cloud.dashboard.envoy.meta.ServiceInfo;
+import org.hango.cloud.dashboard.envoy.util.Const;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;

@@ -1,13 +1,13 @@
-package org.hango.cloud.ncegdashboard.envoy.service.impl;
+package org.hango.cloud.dashboard.envoy.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import org.hango.cloud.ncegdashboard.envoy.meta.GatewayInfo;
-import org.hango.cloud.ncegdashboard.envoy.meta.common.HttpClientResponse;
-import org.hango.cloud.ncegdashboard.envoy.util.Const;
-import org.hango.cloud.ncegdashboard.envoy.service.IEnvoyIstioGatewayService;
-import org.hango.cloud.ncegdashboard.envoy.web.dto.EnvoyGatewaySettingDto;
-import org.hango.cloud.ncegdashboard.envoy.web.util.HttpCommonUtil;
+import org.hango.cloud.dashboard.envoy.meta.GatewayInfo;
+import org.hango.cloud.dashboard.envoy.meta.common.HttpClientResponse;
+import org.hango.cloud.dashboard.envoy.util.Const;
+import org.hango.cloud.dashboard.envoy.service.IEnvoyIstioGatewayService;
+import org.hango.cloud.dashboard.envoy.web.dto.EnvoyGatewaySettingDto;
+import org.hango.cloud.dashboard.envoy.web.util.HttpCommonUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpMethod;

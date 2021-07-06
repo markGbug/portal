@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.util;
+package org.hango.cloud.dashboard.envoy.util;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.common.Pair;
+import org.hango.cloud.dashboard.envoy.meta.common.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

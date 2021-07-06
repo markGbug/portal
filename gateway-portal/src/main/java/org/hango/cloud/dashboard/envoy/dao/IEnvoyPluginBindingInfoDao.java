@@ -1,6 +1,6 @@
-package org.hango.cloud.ncegdashboard.envoy.dao;
+package org.hango.cloud.dashboard.envoy.dao;
 
-import org.hango.cloud.ncegdashboard.envoy.meta.EnvoyPluginBindingInfo;
+import org.hango.cloud.dashboard.envoy.meta.EnvoyPluginBindingInfo;
 
 import java.util.List;
 

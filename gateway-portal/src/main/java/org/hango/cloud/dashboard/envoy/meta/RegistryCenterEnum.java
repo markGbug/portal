@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.envoy.meta;
+package org.hango.cloud.dashboard.envoy.meta;
 
 /**
  * @version 1.0

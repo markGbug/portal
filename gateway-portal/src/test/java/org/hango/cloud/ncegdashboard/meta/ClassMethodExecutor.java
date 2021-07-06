@@ -1,4 +1,4 @@
-package org.hango.cloud.ncegdashboard.meta;
+package org.hango.cloud.dashboard.meta;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
