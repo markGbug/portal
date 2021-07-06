@@ -1,0 +1,13 @@
+org/hango/cloud/ncegdashboard/envoy/service/impl/EnvoyServiceProxyServiceImplTest.class
+org/hango/cloud/ncegdashboard/apiserver/service/impl/GatewayInfoServiceImplTest.class
+org/hango/cloud/ncegdashboard/envoy/service/impl/EnvoyRouteRuleProxyServiceImplTest.class
+org/hango/cloud/ncegdashboard/meta/ClassMethodExecutor.class
+org/hango/cloud/ncegdashboard/apiserver/service/impl/ServiceInfoImplTest.class
+org/hango/cloud/ncegdashboard/apiserver/web/controller/SwaggerControllerTest.class
+org/hango/cloud/ncegdashboard/envoy/service/impl/EnvoyRouteRuleInfoServiceImplTest.class
+org/hango/cloud/ncegdashboard/BaseServiceImplTest.class
+org/hango/cloud/ncegdashboard/meta/DefaultValue.class
+org/hango/cloud/ncegdashboard/meta/DaoMetaUnitTest.class
+org/hango/cloud/ncegdashboard/apiserver/web/controller/apimanage/ApiBasicInfoControllerTest.class
+org/hango/cloud/ncegdashboard/envoy/service/impl/EnvoyHealthCheckServiceImplTest.class
+org/hango/cloud/ncegdashboard/DashboardApplicationTests.class

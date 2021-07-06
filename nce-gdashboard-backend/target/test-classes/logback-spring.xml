@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- <include resource="org/springframework/boot/logging/logback/base.xml"
+        /> -->
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%20thread] %50logger{50}:%-4line %-5level %X{logTraceUUID} - %msg %n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <!-- 按照每天生成日志文件 -->
+    <!--<appender name="FILE"-->
+    <!--class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+    <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+    <!--&lt;!&ndash;日志文件输出的文件名 &ndash;&gt;-->
+    <!--<FileNamePattern>${log.dir}/logs/audit.log.%d{yyyy-MM-dd}.log-->
+    <!--</FileNamePattern>-->
+    <!--&lt;!&ndash;日志文件保留天数 &ndash;&gt;-->
+    <!--<MaxHistory>30</MaxHistory>-->
+    <!--</rollingPolicy>-->
+    <!--<filter class="ch.qos.logback.core.filter.EvaluatorFilter">-->
+    <!--<evaluator> &lt;!&ndash; 默认为 ch.qos.logback.classic.boolex.JaninoEventEvaluator &ndash;&gt;-->
+    <!--<expression>return logger.equals("audit");</expression>-->
+    <!--</evaluator>-->
+    <!--<OnMatch>ACCEPT</OnMatch>-->
+    <!--<OnMismatch>DENY</OnMismatch>-->
+    <!--</filter>-->
+
+    <!--<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
+    <!--&lt;!&ndash;格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符 &ndash;&gt;-->
+    <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%20thread] %50logger{50}:%-4line %-5level %X{logTraceUUID} - %msg %n</pattern>-->
+    <!--</encoder>-->
+    <!--&lt;!&ndash;日志文件最大的大小 &ndash;&gt;-->
+    <!--<triggeringPolicy-->
+    <!--class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">-->
+    <!--<MaxFileSize>500MB</MaxFileSize>-->
+    <!--</triggeringPolicy>-->
+    <!--</appender>-->
+
+    <springProfile
+            name="default, dev, dg-liantiao, yq-liantiao, th-online,xs-ci">
+        <root level="info">
+            <!--参见spring boot预置文件base.xml -->
+            <appender-ref ref="STDOUT"/>
+            <!--<appender-ref ref="FILE" />-->
+        </root>
+        <!--<logger name="com.netease.cloud.nce.interlayer" level="debug" />-->
+        <!--<logger name="org.springframework.web" level="info" />-->
+        <!--<logger name="org.springframework.web.client" level="debug" />-->
+
+    </springProfile>
+    <springProfile name="yq-online,yq-yanlian, yqdg-pubtest, yq-ci">
+        <root level="info">
+            <appender-ref ref="STDOUT"/>
+            <!--<appender-ref ref="FILE" />-->
+        </root>
+    </springProfile>
+</configuration>
