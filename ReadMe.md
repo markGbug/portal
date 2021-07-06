@@ -1,4 +1,5 @@
 # Hango API Gateway Portal
+[![Hango gateway CI](https://github.com/hango-io/portal/actions/workflows/maven.yml/badge.svg)](https://github.com/hango-io/portal/actions/workflows/maven.yml)
 
 ## About
 
