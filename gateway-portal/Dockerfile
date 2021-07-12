@@ -9,8 +9,8 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 WORKDIR /usr/local/tomcat
 RUN rm -rf webapps/* \
     && mkdir webapps/ROOT
-COPY gateway-portal-backend/build bin/
-COPY gateway-portal-backend/target/*.war webapps/ROOT
+COPY gateway-portal/build bin/
+COPY gateway-portal/target/*.war webapps/ROOT
 RUN cd webapps/ROOT \
     && jar -xvf $(ls | grep '.war') \
     && rm $(ls | grep '.war') \
