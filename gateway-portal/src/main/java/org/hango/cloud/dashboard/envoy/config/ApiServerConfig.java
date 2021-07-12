@@ -2,18 +2,12 @@ package org.hango.cloud.dashboard.envoy.config;
 
 import com.google.common.collect.Maps;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Date: 创建时间: 2017/12/6 9:16.
- */
 @Service
-@PropertySource("classpath:gdashboard-application.properties")
 public class ApiServerConfig {
 
 	/**
